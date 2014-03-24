@@ -41,7 +41,7 @@ class blocksocial extends Module
 
 		$this->displayName = $this->l('Social networking block');
 		$this->description = $this->l('Allows you to add information about your brand\'s social networking accounts.');
-		$this->ps_versions_compliancy = array('min' => '1.5.6.1', 'max' => _PS_VERSION_);
+		$this->ps_versions_compliancy = array('min' => '1.6', 'max' => _PS_VERSION_);
 	}
 	
 	public function install()
