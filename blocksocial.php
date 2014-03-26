@@ -49,6 +49,9 @@ class blocksocial extends Module
 		return (parent::install() AND Configuration::updateValue('BLOCKSOCIAL_FACEBOOK', '') && 
 			Configuration::updateValue('BLOCKSOCIAL_TWITTER', '') && 
 			Configuration::updateValue('BLOCKSOCIAL_RSS', '') && 
+			Configuration::updateValue('BLOCKSOCIAL_YOUTUBE', '') && 
+			Configuration::updateValue('BLOCKSOCIAL_GOOGLE_PLUS', '') && 
+			Configuration::updateValue('BLOCKSOCIAL_PINTEREST', '') && 
 			$this->registerHook('displayHeader') && 
 			$this->registerHook('displayFooter'));
 	}
@@ -59,6 +62,9 @@ class blocksocial extends Module
 		return (Configuration::deleteByName('BLOCKSOCIAL_FACEBOOK') AND 
 			Configuration::deleteByName('BLOCKSOCIAL_TWITTER') AND 
 			Configuration::deleteByName('BLOCKSOCIAL_RSS') AND 
+			Configuration::deleteByName('BLOCKSOCIAL_YOUTUBE') AND 
+			Configuration::deleteByName('BLOCKSOCIAL_GOOGLE_PLUS') AND 
+			Configuration::deleteByName('BLOCKSOCIAL_PINTEREST') AND 
 			parent::uninstall());
 	}
 	
