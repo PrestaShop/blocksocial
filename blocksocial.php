@@ -130,7 +130,7 @@ class blocksocial extends Module
 						'type' => 'text',
 						'label' => $this->l('Twitter URL'),
 						'name' => 'blocksocial_twitter',
-						'desc' => $this->l('Your official Twitter accounts.'),
+						'desc' => $this->l('Your official Twitter account.'),
 					),
 					array(
 						'type' => 'text',
@@ -148,7 +148,7 @@ class blocksocial extends Module
 						'type' => 'text',
 						'label' => $this->l('Google+ URL:'),
 						'name' => 'blocksocial_google_plus',
-						'desc' => $this->l('You official Google+ page.'),
+						'desc' => $this->l('Your official Google+ page.'),
 					),
 					array(
 						'type' => 'text',
