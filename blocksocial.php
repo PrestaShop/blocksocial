@@ -146,9 +146,9 @@ class blocksocial extends Module
 					),
 					array(
 						'type' => 'text',
-						'label' => $this->l('Google Plus URL:'),
+						'label' => $this->l('Google+ URL:'),
 						'name' => 'blocksocial_google_plus',
-						'desc' => $this->l('You official Google Plus page.'),
+						'desc' => $this->l('You official Google+ page.'),
 					),
 					array(
 						'type' => 'text',
