@@ -33,7 +33,7 @@ class blocksocial extends Module
 	{
 		$this->name = 'blocksocial';
 		$this->tab = 'front_office_features';
-		$this->version = '1.1.5';
+		$this->version = '1.2.0';
 		$this->author = 'PrestaShop';
 
 		$this->bootstrap = true;
